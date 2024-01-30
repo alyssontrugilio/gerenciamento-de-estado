@@ -2,12 +2,12 @@ part of 'exemple_bloc.dart';
 
 abstract class ExampleState {}
 
-class ExempleStateInitial extends ExampleState {}
+class ExampleStateInitial extends ExampleState {}
 
-class ExempleStateData extends ExampleState {
+class ExampleStateData extends ExampleState {
   final List<String> names;
 
-  ExempleStateData({
+  ExampleStateData({
     required this.names,
   });
 }
